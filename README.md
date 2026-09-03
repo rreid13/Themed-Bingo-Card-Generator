@@ -165,7 +165,7 @@ Shuffles the list of items into a random order and creates a slide for each with
 
 ---
 
-# How to Use
+# How to Use (Java)
 
 ## 1. Add your category
 
@@ -258,7 +258,7 @@ The centre FREE square is not included in the CSV because it is fixed on the bin
 
 ---
 
-# Using the Generated Cards
+# Using the Generated Cards (apps-script)
 
 The Java program handles the logic behind the bingo cards, but Google Sheets, Google Slides and Apps Script are used to turn the generated data into the final materials for the event.
 
@@ -435,7 +435,7 @@ This means that generating 100 cards requires **no manual copying and pasting**.
 
 ---
 
-# 2. Generating the Caller Presentation
+# Generating the Caller Presentation
 
 The second Google Apps Script, generatePresentation.gs creates the presentation used by the person running the bingo game.
 
