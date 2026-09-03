@@ -269,6 +269,8 @@ There are two separate Google Apps Script tools:
 
 This means that once the initial templates have been set up, an entire bingo event can be regenerated with very little manual work.
 
+To use them, you need to create 2 new projects in Google Apps Script, one for each file in `/apps-script` and copy all the code into them.
+
 ---
 
 ### Step 1 — Generate the cards in Java
@@ -340,7 +342,7 @@ The exact visual design is completely customisable. The script only cares that t
 
 ### Step 4 — Add the Google IDs to the script
 
-At the top of the Google Apps Script generateCards.gs, each category has its own configuration:
+At the top of the Google Apps Script `generateCards.gs`, each category has its own configuration:
 
 ```javascript
 const categories = {
@@ -437,7 +439,7 @@ This means that generating 100 cards requires **no manual copying and pasting**.
 
 # Generating the Caller Presentation
 
-The second Google Apps Script, generatePresentation.gs creates the presentation used by the person running the bingo game.
+The second Google Apps Script, `generatePresentation.gs` creates the presentation used by the person running the bingo game.
 
 Instead of showing the finished bingo cards, this presentation displays the options one at a time.
 
