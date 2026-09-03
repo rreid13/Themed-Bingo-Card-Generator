@@ -629,7 +629,7 @@ The result is a ready-to-use caller presentation. If an image cant be found, the
 
 ---
 
-# 🔄 Complete Event Workflow
+# Complete Event Workflow
 
 Once everything has been set up, the complete process looks like this:
 
