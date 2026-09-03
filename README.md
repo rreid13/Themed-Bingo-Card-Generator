@@ -326,12 +326,13 @@ The placeholders can be placed inside a Google Slides table, allowing the table 
 
 For example:
 
-| --------------: | --------------: | --------------: | --------------: | --------------: |
-|{{Square1}}|{{Square2}}|{{Square3}}|{{Square4}}|{{Square5}}|
-|{{Square6}}|{{Square7}}|{{Square8}}|{{Square9}}|{{Square10}}|
-|{{Square11}}|{{Square12}}||{{Square13}}|{{Square14}}|
-|{{Square15}}|{{Square16}}|{{Square17}}|{{Square18}}|{{Square19}}|
-|{{Square20}}|{{Square21}}|{{Square22}}|{{Square23}}|{{Square24}}|
+| | | | | |
+|---|---|---|---|---|
+| {{Square 1}} | {{Square 2}} | {{Square 3}} | {{Square 4}} | {{Square 5}} |
+| {{Square 6}} | {{Square 7}} | {{Square 8}} | {{Square 9}} | {{Square 10}} |
+| {{Square 11}} | {{Square 12}} |  | {{Square 13}} | {{Square 14}} |
+| {{Square 15}} | {{Square 16}} | {{Square 17}} | {{Square 18}} | {{Square 19}} |
+| {{Square 20}} | {{Square 21}} | {{Square 22}} | {{Square 23}} | {{Square 24}} |
 
 The exact visual design is completely customisable. The script only cares that the required placeholders exist.
 
